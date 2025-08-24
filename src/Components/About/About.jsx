@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./About.css";
-import about_img from "../../assets/about.png";
+import about_img from "../../assets/about.jpg";
 import play_icon from "../../assets/play-icon.png";
 
 const About = () => {
@@ -9,26 +9,17 @@ const About = () => {
     <div className="about">
       <div className="about-left">
         <img src={about_img} alt="" className="about-img" />
-        <img src={play_icon} alt="" className="play-icon" />
       </div>
       <div className="about-right">
-        <h3>ABOUT UNIVERSITY</h3>
-        <h2>Nurturing Tomorrow Leaders Today</h2>
+        <h2>Harapan Masyarakat Perbatasan Barru</h2>
         <p>
-          Embark on a transformasive education programs. Our cutting-edge
-          curriculum is designed to empower students with the knowledge, skills,
-          and experiences needed to excel in dynamic field of education.
+          Setiap perjalanan menuju layanan publik bagi masyarakat perbatasan Barru bukan sekadar menempuh jarak, tetapi juga melintasi waktu, tenaga, dan biaya yang tidak sedikit. Bagi sebagian orang, jarak 45 km hanyalah angka, namun bagi kami, itu adalah pengorbanan setiap kali ada urusan mendesak.
         </p>
         <p>
-          With a focus on innovation, hands-on learning, and personalized
-          mentorship, our programs prepare aspiring educators to make a
-          meaningful impact in classrooms, schools, and communities.
+          Kami berharap, di masa depan layanan publik dapat hadir lebih dekat, mudah, dan merata. Bukan hanya di pusat kota, tetapi juga menjangkau desa-desa yang jauh di ujung batas kabupaten.
         </p>
         <p>
-          Whether you aspire to become a teacher, administrator, counselor, or
-          educational leader, our diverse range of programs offers the perfect
-          pathway to achieve your goals and unlock your full potential in
-          shaping the future education.
+          Semoga dengan hadirnya solusi digital dan pemerataan pembangunan, tidak ada lagi warga yang merasa jauh dari hak dasarnya untuk mendapatkan pelayanan.
         </p>
       </div>
     </div>

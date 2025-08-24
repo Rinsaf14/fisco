@@ -36,13 +36,10 @@ const Contact = () => {
     <div className="contact">
       <div className="contact-col">
         <h3>
-          Send us a message <img src={msg_icon} alt="" />
+          Tulis pesan untuk saya <img src={msg_icon} alt="" />
         </h3>
         <p>
-          Feel free to reach out through contact from or find our contact
-          information below. Your feedback, questions, and suggestions are
-          important to us we srive to provide exceptional service to or
-          university community
+          Website ini saya buat untuk berbagi cerita tentang panjangnya perjalanan masyarakat perbatasan Barru menuju layanan publik. Jika kamu punya pesan, saran, atau sekadar ingin berbagi pandangan, silakan kirimkan melalui form di samping.
         </p>
         <ul>
           <li>
@@ -55,27 +52,27 @@ const Contact = () => {
           </li>
           <li>
             <img src={location_icon} alt="" />
-            Malengkeri, Parangtambung
+            Lingkungan Banrongnge, Kelurahan Bojo Baru, Kecamatan Mallusetasi, Kab. Barru
           </li>
         </ul>
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
-          <label>Your Name</label>
+          <label>Nama Kamu</label>
           <input
             type="text"
             name="name"
             placeholder="Enter your name"
             required
           />
-          <label>Phone Number</label>
+          <label>Nomor Telepon</label>
           <input
             type="tel"
             name="phone"
             placeholder="Enter your phone number"
             required
           />
-          <label>Write your messages here</label>
+          <label>Tulis pesan atau harapanmu di sini...</label>
           <textarea
             name="message"
             rows="6"
@@ -83,7 +80,7 @@ const Contact = () => {
             required
           ></textarea>
           <button type="submit" className="btn dark-btn">
-            Submit Now <img src={white_arrow} alt="" />
+            Kirim<img src={white_arrow} alt="" />
           </button>
         </form>
         <span>{result}</span>

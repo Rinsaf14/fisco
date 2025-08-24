@@ -20,31 +20,26 @@ const Navbar = () => {
   };
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
-      <h2>FMIPA STUDENT COMMUNITY</h2>
+      <h2>RUANG PETA</h2>
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="program" smooth={true} offset={-260} duration={500}>
-            Program
-          </Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} offset={-150} duration={500}>
-            About Us
-          </Link>
-        </li>
-        <li>
-          <Link to="campus" smooth={true} offset={-260} duration={500}>
-            Campus
+            Beranda
           </Link>
         </li>
         <li>
           <Link to="testimonials" smooth={true} offset={-260} duration={500}>
-            Testimonials
+            Cerita
+          </Link>
+        </li>
+        <li>
+          <Link to="campus" smooth={true} offset={-150} duration={500}>
+            Peta
+          </Link>
+        </li>
+        <li>
+          <Link to="campus" smooth={true} offset={-260} duration={500}>
+            Harapan
           </Link>
         </li>
         <li>
@@ -55,7 +50,7 @@ const Navbar = () => {
             duration={500}
             className="btn"
           >
-            Contact Us
+            Kontak
           </Link>
         </li>
       </ul>

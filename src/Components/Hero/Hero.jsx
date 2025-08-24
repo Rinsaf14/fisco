@@ -7,15 +7,14 @@ const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero-text">
-        <h1>We ensure better education for a better world</h1>
+        <h1>Jauh di Mata, Sulit di Akses</h1>
         <p>
-          Our cutting-edge curriculum is designed to empower students with the
-          knowledge, skills, and experiences needed to excel in the dynamic
-          field of education
+          Tantangan Masyarakat Perbatasan Barru-Parepare dalam Menggapai Layanan Publik
         </p>
-        <button className="btn">
-          Explore mode <img src={dark_arrow} alt="" />
-        </button>
+        <a href="#testimonials" className="btn">
+  Explore more <img src={dark_arrow} alt="" />
+</a>
+
       </div>
     </div>
   );

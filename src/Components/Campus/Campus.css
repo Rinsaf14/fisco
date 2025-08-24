@@ -7,22 +7,21 @@
 .gallery {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* gambar selalu di tengah */
   margin-bottom: 40px;
 }
 
 .gallery img {
-  width: 23%;
-  border-radius: 10px;
+  width: 80%;          /* diperbesar */
+  max-width: 1000px;   /* batasi biar ga terlalu besar */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 /* media query */
 @media (max-width: 800px) {
-  .gallery {
-    flex-wrap: wrap;
-  }
   .gallery img {
-    width: 48%;
+    width: 95%;        /* biar tetap besar tapi pas di layar kecil */
     margin-bottom: 25px;
   }
 }

@@ -5,11 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>© 2023 FMIPA ICP Student Community (FISCo) UNM</p>
-      <ul>
-        <li>Terms of Services</li>
-        <li>Privacy Policy</li>
-      </ul>
+      <p>© 2023 Peta Perjalanan Panjang – Kabupaten Barru  | Dibuat oleh Ririn dengan ❤️</p>
     </div>
   );
 };

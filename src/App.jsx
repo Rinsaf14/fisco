@@ -16,14 +16,12 @@ const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle="Our Program" title="What We Offer" />
-        <Programs />
-        <About />
-        <Title subTitle="Gallery" title="Campus Photos" />
-        <Campus />
-        <Title subTitle="TESTIMONIALS" title="What Student Says" />
+        <Title title="Kisah Nyata" />
         <Testimonials />
-        <Title subTitle="Contact Us" title="Get In Touch" />
+        <Title subTitle="Peta" title="Perjalanan Panjang Menuju Layanan Publik" />
+        <Campus />
+        <About />
+        <Title subTitle="Sampaikan Suaramu" title="Mari Berbagi Cerita & Harapan" />
         <Contact/>
         <Footer/>
       </div>
